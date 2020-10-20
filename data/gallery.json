@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Retratos",
+        "thumbnail": "thumbs/retratos.jpg"
+    },
+    {
+        "title": "Eventos",
+        "thumbnail": "thumbs/eventos.jpg"
+    },
+    {
+        "title": "Paisajes",
+        "thumbnail": "thumbs/paisajes.jpg"
+    },
+    {
+        "title": "Mascotas",
+        "thumbnail": "thumbs/mascotas.jpg"
+    },
+    {
+        "title": "Grupos",
+        "thumbnail": "thumbs/grupos.jpg"
+    },
+    {
+        "title": "Turismo",
+        "thumbnail": "thumbs/turismo.jpg"
+    },
+    {
+        "title": "Blanco y Negro",
+        "thumbnail": "thumbs/historica.jpg"
+    },
+    {
+        "title": "Naturaleza",
+        "thumbnail": "thumbs/naturaleza.jpg"
+    }
+]

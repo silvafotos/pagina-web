@@ -1,0 +1,111 @@
+/* The following block can be included in a custom.scss */
+@import 'libs/vendor';
+
+/* make the customizations */
+$theme-colors: (
+  "info": tomato,
+  "danger": teal,
+);
+
+$body-bg: #242629;
+$body-color: #a0a0a1;
+
+$font-family-sans-serif: "Source Sans Pro", Helvetica, sans-serif;
+
+$border-radius: 0px;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+.wrapper {
+    position: relative;
+}
+
+.preload {
+    * {
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+        transition: none !important;
+    }
+}
+
+.thumbnail {
+  border: 0;
+  max-height: 445px;     // the size of thumbnails
+  img {
+    width: 100%;
+  }
+  h2 {
+    bottom: (1.5em / 0.8);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 300;
+    left: (1.75em / 0.8);
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+
+#header {
+    transform: translateY(-3.5em);
+    transition: transform 1000ms ease 0ms;
+
+    z-index: 1000;
+    color: $body-color;
+    background: #1f2224;
+
+    position: fixed;
+    bottom: -5em;
+ 
+    width: 100%;
+    height: 5em;
+    line-height: 4em;
+
+    padding: 0 1.5em;
+    display: block;
+
+    h1 {
+        font-size: 1em;
+        text-transform: uppercase;
+        display: inline-block;
+        color: #a0a0a1;
+        font-weight: 300;
+        a {
+            color: #fff;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+        }
+    }
+
+    nav {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-transform: uppercase;
+        font-weight: 300;
+        ul {
+            list-style: none;
+        }
+
+        a {
+            color: #fff;
+            letter-spacing: 0.1em;
+            padding: 0 1.65em;
+        }
+    }
+}
+
+#footer {
+    display: none;
+}
+
+.preload {
+    #header {
+        transform: translateY(5em);
+    }
+}
