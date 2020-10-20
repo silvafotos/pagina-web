@@ -9,14 +9,14 @@ export default () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setStyles("wrapper")
-    }, 100)
+    }, 200)
     return () => clearTimeout(timer)
   }, [])
   return (
     <>
       <Helmet>
         <title>Fotografía Silva</title>
-        <link rel="icon" href="favicon.png" type="image/x-icon" />
+        <link rel="icon" href="logo.png" type="image/x-icon" />
       </Helmet>
       <div className={styles}>
         <Header />

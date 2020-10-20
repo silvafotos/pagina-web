@@ -6,7 +6,7 @@ import { Row } from "react-bootstrap"
 export default () => {
   console.log("data is: ", galleryData)
   return (
-    <main id="main">
+    <main id="gallery">
         <Row noGutters>
           {galleryData.map((category, index) => (
             <PhotoCard
