@@ -1,28 +1,11 @@
-import React, { useEffect, useState } from "react"
-import { Helmet } from "react-helmet"
-import Footer from "../components/Footer"
+import React from "react"
 import Gallery from "../components/Gallery"
-import Header from "../components/Header"
+import Layout from "../components/Layout"
 
 export default () => {
-  const [styles, setStyles] = useState("wrapper preload")
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setStyles("wrapper")
-    }, 200)
-    return () => clearTimeout(timer)
-  }, [])
   return (
-    <>
-      <Helmet>
-        <title>Fotografía Silva</title>
-        <link rel="icon" href="logo.png" type="image/x-icon" />
-      </Helmet>
-      <div className={styles}>
-        <Header />
-        <Gallery />
-        <Footer />
-      </div>
-    </>
+    <Layout title="Inicio">
+      <Gallery />
+    </Layout>
   )
 }

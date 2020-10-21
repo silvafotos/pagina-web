@@ -14,7 +14,7 @@ export default () => (
             <li>
               <a
                 href="https://www.instagram.com/samuel_ph_1/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 className="icon brands fa-instagram"
               >
                 <span className="label">Instagram</span>

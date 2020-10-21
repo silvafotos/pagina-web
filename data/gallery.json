@@ -1,34 +1,69 @@
 [
-    {
-        "title": "Retratos",
-        "thumbnail": "thumbs/retratos.jpg"
-    },
-    {
-        "title": "Eventos",
-        "thumbnail": "thumbs/eventos.jpg"
-    },
-    {
-        "title": "Paisajes",
-        "thumbnail": "thumbs/paisajes.jpg"
-    },
-    {
-        "title": "Mascotas",
-        "thumbnail": "thumbs/mascotas.jpg"
-    },
-    {
-        "title": "Grupos",
-        "thumbnail": "thumbs/grupos.jpg"
-    },
-    {
-        "title": "Turismo",
-        "thumbnail": "thumbs/turismo.jpg"
-    },
-    {
-        "title": "Blanco y Negro",
-        "thumbnail": "thumbs/historica.jpg"
-    },
-    {
-        "title": "Naturaleza",
-        "thumbnail": "thumbs/naturaleza.jpg"
-    }
+  {
+    "title": "Retratos",
+    "link": "/retratos",
+    "thumbnail": "/thumbs/retratos.jpg",
+    "images": [
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/01.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/02.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/03.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/04.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/05.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/06.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/07.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/08.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Eventos",
+    "thumbnail": "/thumbs/eventos.jpg"
+  },
+  {
+    "title": "Paisajes",
+    "thumbnail": "/thumbs/paisajes.jpg"
+  },
+  {
+    "title": "Mascotas",
+    "thumbnail": "/thumbs/mascotas.jpg"
+  },
+  {
+    "title": "Grupos",
+    "thumbnail": "/thumbs/grupos.jpg"
+  },
+  {
+    "title": "Turismo",
+    "thumbnail": "/thumbs/turismo.jpg"
+  },
+  {
+    "title": "Blanco y Negro",
+    "thumbnail": "/thumbs/historica.jpg"
+  },
+  {
+    "title": "Naturaleza",
+    "thumbnail": "/thumbs/naturaleza.jpg"
+  }
 ]

@@ -32,13 +32,15 @@ $border-radius: 0px;
 #gallery {
   margin-bottom: 4em;
 
-  .thumbnail {
+  .fadein {
     transition: opacity 850ms ease-in-out 0ms;
     opacity: 1;
+  }
+  .thumbnail, .portrait {
     max-height: 445px; // the size of thumbnails
 
     .card {
-        border: 0;
+      border: 0;
     }
 
     img {
@@ -57,28 +59,32 @@ $border-radius: 0px;
     }
   }
 
-  .row > .thumbnail:nth-child(1) {
-      transition-delay: 0s;
+  .portrait {
+    max-height: 720px;
   }
-  .row > .thumbnail:nth-child(2) {
+
+  .row > .fadein:nth-child(1) {
+    transition-delay: 0s;
+  }
+  .row > .fadein:nth-child(2) {
     transition-delay: 0.3s;
   }
-  .row > .thumbnail:nth-child(3) {
+  .row > .fadein:nth-child(3) {
     transition-delay: 0.6s;
   }
-  .row > .thumbnail:nth-child(4) {
+  .row > .fadein:nth-child(4) {
     transition-delay: 0.9s;
   }
-  .row > .thumbnail:nth-child(5) {
+  .row > .fadein:nth-child(5) {
     transition-delay: 1.2s;
   }
-  .row > .thumbnail:nth-child(6) {
+  .row > .fadein:nth-child(6) {
     transition-delay: 1.5s;
   }
-  .row > .thumbnail:nth-child(7) {
+  .row > .fadein:nth-child(7) {
     transition-delay: 1.8s;
   }
-  .row > .thumbnail:nth-child(8) {
+  .row > .fadein:nth-child(8) {
     transition-delay: 2.1s;
   }
 }
@@ -131,10 +137,20 @@ $border-radius: 0px;
       padding: 0 1.65em;
     }
   }
+
+  .instagram {
+    text-transform: none;
+    font-weight: normal;
+    color: #da2887;
+  }
 }
 
 #footer {
   display: none;
+}
+
+#footer:target {
+  display: block;
 }
 
 // Can't have any transitions at the beginning
@@ -143,14 +159,15 @@ $border-radius: 0px;
     transform: translateY(5em);
   }
 
-  #gallery .thumbnail {
-    opacity: 0;
+  #gallery {
+    .fadein {
+      opacity: 0;
+    }
   }
 }
 
-
 @media (max-width: 575.98px) {
-    #header {
-        font-size: 0.8em;
-    }
+  #header {
+    font-size: 0.8em;
+  }
 }
