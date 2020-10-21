@@ -12,7 +12,7 @@
     "serve": "gatsby serve --host=0.0.0.0",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "publish": "rm -rf docs/* && cp -R public/* docs/"
+    "publish": "rm -rf docs/* && cp -R public/* docs/ && cp CNAME docs/"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
