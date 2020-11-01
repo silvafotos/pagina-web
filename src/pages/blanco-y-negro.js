@@ -6,38 +6,32 @@ import Category from "../components/Category"
 
 export default () => {
   return (
-    <Layout title="Blanco y Negro">
+    <Layout title="Retratos">
       <main id="gallery">
         <Row noGutters>
-          <Col
-            xs="12"
-            sm="12"
-            md="6"
-            xl="3"
-            className={`fadein d-flex `}
-          >
+          <Col xs="12" className="fadein d-flex ">
             <Card className="flex-fill ">
               <article>
                 <Card.Body className="p-0">
-                  <Card.Text className="p-0 m-0">
-                  <img src={galleryData[6].images[0].thumbnail} alt={galleryData[6].images[0].title} title={galleryData[6].images[0].title} />
+                  <Card.Text className="p-0 m-0 text-center">
+                    <img className="w-100 " src="/full/blanco-y-negro/01.jpg" alt="" title="" />
                   </Card.Text>
-                  <h2>{galleryData[6].images[0].title}</h2>
                 </Card.Body>
               </article>
             </Card>
           </Col>
-          )
-          {/* {galleryData[6].images.map((category, index) => {
+        </Row>
+        <Row noGutters>
+          {galleryData[6].images.map((category, index) => {
             return (
               <Category
                 key={`photo-${index}`}
-                portrait={false}
+                portrait={true}
                 thumbnail={category.thumbnail}
                 title={category.title}
               />
             )
-          })} */}
+          })}
         </Row>
       </main>
     </Layout>

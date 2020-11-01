@@ -17,7 +17,8 @@ export default ({ link, thumbnail, title, portrait }) => {
       xs="12"
       sm="12"
       md="6"
-      xl="3"
+      lg="4"
+      xl="4"
       className={`fadein d-flex ${containerClass}`}
     >
       <Card className="flex-fill ">
