@@ -22,7 +22,7 @@ export default () => {
           </Col>
         </Row>
         <Row noGutters>
-          {galleryData[6].images.map((category, index) => {
+          {galleryData[3].images.map((category, index) => {
             return (
               <Category
                 key={`photo-${index}`}

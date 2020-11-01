@@ -62,20 +62,23 @@
     ]
   },
   {
-    "title": "Paisajes",
-    "thumbnail": "/thumbs/paisajes.jpg"
-  },
-  {
     "title": "Mascotas",
-    "thumbnail": "/thumbs/mascotas.jpg"
-  },
-  {
-    "title": "Grupos",
-    "thumbnail": "/thumbs/grupos.jpg"
-  },
-  {
-    "title": "Turismo",
-    "thumbnail": "/thumbs/turismo.jpg"
+    "thumbnail": "/thumbs/mascotas.jpg",
+    "link": "/mascotas",
+    "images": [
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/01.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/02.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/03.jpg"
+      }
+    ]
   },
   {
     "title": "Blanco y Negro",
@@ -98,6 +101,7 @@
   },
   {
     "title": "Naturaleza",
-    "thumbnail": "/thumbs/naturaleza.jpg"
+    "thumbnail": "/thumbs/naturaleza.jpg",
+    "link": "/naturaleza"
   }
 ]

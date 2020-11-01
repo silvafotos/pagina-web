@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{Hmya:function(t,e,a){"use strict";a.r(e);var n=a("q1tI"),r=a.n(n),i=a("L6Je"),l=a("JNr6"),o=a("3Z9Z"),u=a("YG9C");e.default=function(){return r.a.createElement(i.a,{title:"Retratos"},r.a.createElement("main",{id:"gallery"},r.a.createElement(o.a,{noGutters:!0},l[0].images.map((function(t,e){return r.a.createElement(u.a,{key:"photo-"+e,portrait:!0,thumbnail:t.thumbnail,title:t.title})})))))}}}]);
+//# sourceMappingURL=component---src-pages-retratos-js-99a2917f62e123d36076.js.map

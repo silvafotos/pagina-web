@@ -33,6 +33,8 @@ $border-radius: 0px;
   margin-bottom: 4em;
   .card {
     overflow: hidden;
+    border: 0;
+    background: $body-bg;
   }
 
   .fadein {
@@ -42,10 +44,6 @@ $border-radius: 0px;
   .thumbnail,
   .portrait {
     max-height: 445px; // the size of thumbnails
-
-    .card {
-      border: 0;
-    }
 
     img {
       width: 100%;
