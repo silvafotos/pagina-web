@@ -60,7 +60,22 @@
   },
   {
     "title": "Blanco y Negro",
-    "thumbnail": "/thumbs/historica.jpg"
+    "thumbnail": "/thumbs/historica.jpg",
+    "link": "/blanco-y-negro",
+    "images": [
+      {
+        "title": "",
+        "thumbnail": "/full/blanco-y-negro/01.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/blanco-y-negro/02.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/blanco-y-negro/03.jpg"
+      }
+    ]
   },
   {
     "title": "Naturaleza",

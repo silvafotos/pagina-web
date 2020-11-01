@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{RXBc:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),i=n.n(a),l=n("YG9C"),r=n("JNr6"),c=n("3Z9Z"),u=function(){return i.a.createElement("main",{id:"gallery"},i.a.createElement(c.a,{noGutters:!0},r.map((function(e,t){return i.a.createElement(l.a,{key:"photo-"+t,link:e.link,thumbnail:e.thumbnail,title:e.title})}))))},o=n("L6Je");t.default=function(){return i.a.createElement(o.a,{title:"Inicio"},i.a.createElement(u,null))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-7ad4e37503a28f199289.js.map
