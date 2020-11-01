@@ -40,7 +40,26 @@
   },
   {
     "title": "Eventos",
-    "thumbnail": "/thumbs/eventos.jpg"
+    "link": "/eventos",
+    "thumbnail": "/thumbs/eventos.jpg",
+    "images": [
+      {
+        "title": "",
+        "thumbnail": "/full/eventos/01.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/eventos/02.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/eventos/03.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/eventos/04.jpg"
+      }
+    ]
   },
   {
     "title": "Paisajes",

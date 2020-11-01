@@ -31,12 +31,16 @@ $border-radius: 0px;
 }
 #gallery {
   margin-bottom: 4em;
+  .card {
+    overflow: hidden;
+  }
 
   .fadein {
     transition: opacity 850ms ease-in-out 0ms;
     opacity: 1;
   }
-  .thumbnail, .portrait {
+  .thumbnail,
+  .portrait {
     max-height: 445px; // the size of thumbnails
 
     .card {
@@ -169,5 +173,14 @@ $border-radius: 0px;
 @media (max-width: 575.98px) {
   #header {
     font-size: 0.8em;
+  }
+}
+
+@media (min-width: 1200px) {
+  #gallery {
+    .thumbnail,
+    .portrait {
+      max-height: 722px; // the size of thumbnails
+    }
   }
 }
