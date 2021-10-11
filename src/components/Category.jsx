@@ -25,7 +25,7 @@ export default ({ link, thumbnail, title, portrait }) => {
         <article>
           <Card.Body className="p-0">
             <Card.Text className="p-0 m-0">{toRender}</Card.Text>
-            <h2>{title}</h2>
+            <h2 style={{backgroundColor: '#000', opacity: 0.7, paddingLeft: '1em', paddingRight: '1em' }}>{title}</h2>
           </Card.Body>
         </article>
       </Card>

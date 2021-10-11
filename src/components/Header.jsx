@@ -1,12 +1,14 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram  } from '@fortawesome/free-brands-svg-icons'
+import logo from '../../static/thumbs/logo.png';
 
 export default () => (
   <header id="header">
     <h1>
       <a href="/">
-        <strong>Fotografía</strong> de Samuel Silva
+        <img src={logo} style={{height: '3em'}} />
+        Samuel Silva
       </a>
     </h1>
     <nav>

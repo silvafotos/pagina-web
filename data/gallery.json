@@ -35,7 +35,44 @@
       {
         "title": "",
         "thumbnail": "/full/retratos/08.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/09.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/10.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/11.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/12.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/13.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/14.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/15.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/16.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/retratos/17.jpg"
       }
+
     ]
   },
   {
@@ -77,14 +114,46 @@
       {
         "title": "",
         "thumbnail": "/full/mascotas/03.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/04.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/05.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/06.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/07.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/08.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/09.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/mascotas/10.jpg"
       }
     ]
   },
   {
     "title": "Blanco y Negro",
-    "thumbnail": "/thumbs/historica.jpg",
+    "thumbnail": "/thumbs/blanco-y-negro.jpg",
     "link": "/blanco-y-negro",
     "images": [
+      {
+        "title": "",
+        "thumbnail": "/full/blanco-y-negro/01.jpg"
+      },
       {
         "title": "",
         "thumbnail": "/full/blanco-y-negro/02.jpg"
@@ -96,12 +165,87 @@
       {
         "title": "",
         "thumbnail": "/full/blanco-y-negro/04.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/blanco-y-negro/05.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/blanco-y-negro/06.jpg"
       }
     ]
   },
   {
     "title": "Naturaleza",
     "thumbnail": "/thumbs/naturaleza.jpg",
-    "link": "/naturaleza"
+    "link": "/naturaleza",
+    "images": [
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/01.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/02.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/03.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/04.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/05.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/06.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/07.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/08.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/09.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/10.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/11.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/12.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/13.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/14.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/15.jpg"
+      },
+      {
+        "title": "",
+        "thumbnail": "/full/naturaleza/16.jpg"
+      }
+
+    ]
   }
 ]
