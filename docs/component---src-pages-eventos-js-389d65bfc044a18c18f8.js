@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{aFav:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),r=a.n(n),i=a("L6Je"),l=a("JNr6"),o=a("3Z9Z"),u=a("YG9C");t.default=function(){return r.a.createElement(i.a,{title:"Eventos"},r.a.createElement("main",{id:"gallery"},r.a.createElement(o.a,{noGutters:!0},l[1].images.map((function(e,t){return r.a.createElement(u.a,{key:"photo-"+t,portrait:!0,thumbnail:e.thumbnail,title:e.title})})))))}}}]);
+//# sourceMappingURL=component---src-pages-eventos-js-389d65bfc044a18c18f8.js.map

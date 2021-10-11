@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{TWif:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),r=a.n(n),i=a("L6Je"),l=a("JNr6"),o=a("3Z9Z"),c=a("YG9C");t.default=function(){return r.a.createElement(i.a,{title:"Blanco y Negro"},r.a.createElement("main",{id:"gallery"},r.a.createElement(o.a,{noGutters:!0},l[3].images.map((function(e,t){return r.a.createElement(c.a,{key:"photo-"+t,portrait:!0,thumbnail:e.thumbnail,title:e.title})})))))}}}]);
+//# sourceMappingURL=component---src-pages-blanco-y-negro-js-eedf9479d8396ebd31d1.js.map
